@@ -1,0 +1,48 @@
+
+
+1. category 
+        1. cat_id
+        2. cat_title
+        3. cat_description
+        4. cat_parent_id
+
+
+2. product
+    1. title
+    2. description
+    3. brand
+    4. category_id 
+    5. barcode (nullable)
+    6. price
+    7. discount_price
+    8. image 
+    9. status (true/ false )
+
+3. coupon
+    1. coupon_id
+    2. coupon_code
+    3. coupon_status (true/ false )
+
+4. address 
+    1. name
+    2. contact
+    3. street 
+    4. city
+    5. area 
+    6. pincode
+    7. alt_contact
+
+5. order 
+    1. order_id
+    2. user_id
+    3. is_ordered = (true/false)
+    4. coupon_id = (null)
+    6. address_id = (null)
+
+6. order_item 
+    1. id 
+    2. order_id
+    3. user_id
+    4. product_id
+    5. quantity
+    6. is_ordered 
